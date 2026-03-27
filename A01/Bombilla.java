@@ -4,12 +4,12 @@ public class Bombilla implements DispositivoConectado {
 
     @Override
     public void encender() {
-        System.out.println("La bombilla se ha encendido 💡");
+        System.out.println("La bombilla se ha encendido");
     }
 
     @Override
     public void apagar() {
-        System.out.println("La bombilla se ha apagado ❌");
+        System.out.println("La bombilla se ha apagado");
     }
 
     @Override
